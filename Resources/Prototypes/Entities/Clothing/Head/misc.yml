@@ -369,6 +369,17 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatBigHairflower
+  name: big hairflower
+  description: A large hairflower that can be inserted between locks of hair.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/hairflower_big.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/hairflower_big.rsi
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadPerformerWig
   name: performer's wig
   description: On a closer inspection, it appears that it is made from optic fiber.
